@@ -5,9 +5,8 @@
 
 W = [ "Monday", "Tuesday", "Wednesday",
     "Thursday", "Friday", "Saturday", "Sunday"]
+s = input ()
 
-# Input one element of W, day
-input("day");input in W
-if input in W[0:4] : print ("Yes, unfortunately today is a weekday")
+if (W[0:4]) : print ("Yes, unfortunately today is a weekday")
     
 else: print ("It is the weekend, yay!")
