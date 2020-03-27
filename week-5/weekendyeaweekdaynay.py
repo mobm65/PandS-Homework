@@ -5,17 +5,19 @@
 
 # References: PandS notes, Whirlwind Tour of Python
 # http://anh.cs.luc.edu/handsonPythonTutorial/ifstatements.html
+# python crash course cheat sheet.
 
 
 # Create tuple, days of the week.
 W = ("Monday", "Tuesday", "Wednesday",
     "Thursday", "Friday", "Saturday", "Sunday")
 
+
 # Ask user to input a day of the week    
 s = input("Input day of week: ")
 
 # outputs depending on user choice of day
-if (W[0:4]): 
+if (s in W[:4]): 
     print("Yes, unfortunately today is a weekday")  
 else: 
     print("It is the weekend, yay!")
