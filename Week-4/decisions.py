@@ -1,4 +1,4 @@
-# use statements to create a program to manipulate integers
+    # use statements to create a program to manipulate integers
 # if a positive even integer is entered / by 2
 # if a positive odd integer is entered x by 3 and + 1
 # break when you get to 1

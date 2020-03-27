@@ -1,10 +1,21 @@
-# Read every second letter of a string
-# Input sentence s
+# A code to write every second letter in a
+# sentence in reverse order.
 
-S = str 
-input(S)
+# References: PandS notes, Whirlwind Tour of Python,
+# educative.io/edspresso
 
-# print will return every second letter of S
+# Input sentence S
+S = input("Input sentence S: ")
 
-#print S[0:len(S):2]
+# Create variable x such that it 
+# extracts every second letter.
+x = (S[::2])
+
+# print variable x in reverse order.
+print(x[::-1])
+
+
+
+
+
 

@@ -3,8 +3,8 @@
 # Weekday output - Yes, unfortunately today is a weekday.
 # Weekend output - It is the weekend, yay!
 
-W = [ "Monday", "Tuesday", "Wednesday",
-    "Thursday", "Friday", "Saturday", "Sunday"]
+W = {"Monday", "Tuesday", "Wednesday",
+    "Thursday", "Friday", "Saturday", "Sunday"}
 s = input ()
 
 if (W[0:4]) : print ("Yes, unfortunately today is a weekday")
