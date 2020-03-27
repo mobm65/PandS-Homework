@@ -4,11 +4,10 @@
 # break when you get to 1
 
 
-f = input ("a positive integer (1 to quit)")
-f = int(f)
-print (f)
-while (f > 1): 
-    if f % 2 == 0: f = (f / 2)
+f = input("Input a positive integer (1 to quit): ")
 
-    else: f = (f*3+1)
-    print (f)
+while (f % 2 == 0):(f / 2)
+
+#else: f = (f*3+1)
+
+print(f)

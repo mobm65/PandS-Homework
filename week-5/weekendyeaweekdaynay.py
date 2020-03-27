@@ -3,10 +3,19 @@
 # Weekday output - Yes, unfortunately today is a weekday.
 # Weekend output - It is the weekend, yay!
 
-W = {"Monday", "Tuesday", "Wednesday",
-    "Thursday", "Friday", "Saturday", "Sunday"}
-s = input ()
+# References: PandS notes, Whirlwind Tour of Python
+# http://anh.cs.luc.edu/handsonPythonTutorial/ifstatements.html
 
-if (W[0:4]) : print ("Yes, unfortunately today is a weekday")
-    
-else: print ("It is the weekend, yay!")
+
+# Create tuple, days of the week.
+W = ("Monday", "Tuesday", "Wednesday",
+    "Thursday", "Friday", "Saturday", "Sunday")
+
+# Ask user to input a day of the week    
+s = input("Input day of week: ")
+
+# outputs depending on user choice of day
+if (W[0:4]): 
+    print("Yes, unfortunately today is a weekday")  
+else: 
+    print("It is the weekend, yay!")
