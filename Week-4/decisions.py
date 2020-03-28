@@ -6,8 +6,21 @@
 
 f = input("Input a positive integer (1 to quit): ")
 
-while (f % 2 == 0):(f / 2)
 
-#else: f = (f*3+1)
+for f in range(1, f):
+    if f % 2 == 0:
+        continue 
+    print(f, end= "")
 
-print(f)
+    
+for f in range(1, f):
+    if f % 2 != 0:
+    print(f * 3 + 1)
+
+
+    #if (f % 2 == 0):
+ #   print(f / 2)
+#else: 
+ #   print(f * 3 + 1)
+
+#print(f)
