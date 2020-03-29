@@ -1,15 +1,16 @@
 # A function called sqrt which takes a 
 # floating-point number as imput and outputs
 # an approximation of its square root.  
-# Refererence RealPython
+# Reference RealPython & Telusko, Python Tutorial
+# for Beginners
 
 
 
 
 f = input("input float: ")
-#f = float(f)
+x = float(f)
 
 import math 
  
-math.sqrt(f)
-print(f)
+print(math.sqrt(x))
+
