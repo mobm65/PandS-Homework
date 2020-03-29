@@ -5,7 +5,7 @@
 
 
 f = input("Input a positive integer (1 to quit): ")
-
+  
 
 for f in range(1, f):
     if f % 2 == 0:
@@ -15,7 +15,8 @@ for f in range(1, f):
     
 for f in range(1, f):
     if f % 2 != 0:
-    print(f * 3 + 1)
+        continue
+print(f * 3 + 1)
 
 
     #if (f % 2 == 0):
