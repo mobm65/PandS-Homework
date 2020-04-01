@@ -15,4 +15,8 @@ response if the day is a weekday or weekend.  Program name: Weekendyeaweekendnay
 Week 6 is a program asking the user to input a float. The program should import sqrt to find
 the approximate square root of the float.  Program name: squareroot.py
 
-Week 7
+Week 7 is a program which reads in a text file and counts the number of es it contains.  Program
+name: Testargs.py.  The text file I used is poem.txt which has 15 es.
+
+Week 8 is a program which uses numpy and matplotlib to draw a plot, filename ipython_log.py.  The plot generated
+is saved with it.  The code does run in ipython.
